@@ -113,7 +113,6 @@ class OBJECT_MT_svdMenu(Menu):
 
     def draw(self, context):
         layout = self.layout
-        layout.label(text="Set Viewport Display Menu")
 
         layout.operator("object.set_display_bounds")
         layout.operator("object.set_display_wire")
